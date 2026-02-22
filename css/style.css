@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  box-shadow: 4px 15px 19px -7px #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.dash {
+  position: relative;
+}
+
+.dash::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: black;
+  transform: translateX(-150%);
+}
+/* HEADER */
+
+header .container {
+  background-color: #edebe0;
+}
+
+.name {
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.position {
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* MAIN */
+
+main {
+  height: 100%;
+}
+
+main .container {
+}
+
+.resume-info {
+  display: flex;
+}
+
+.self-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 200px;
+  background-color: #edebe0;
+}
+
+.self-info-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.info {
+  background-color: #fff;
+}
+
+.contacts-link {
+  color: black;
+  transition: color 250ms ease-in-out;
+}
+
+.contacts-link:hover {
+  color: orange;
+}
+
+.skills-list {
+  padding-left: 20px;
+}
+
+/* INFO */
+
+.info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.project-links {
+  margin-bottom: 8px;
+  margin-left: 15px;
+}
+
+.project-link {
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
